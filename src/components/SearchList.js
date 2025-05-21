@@ -1,5 +1,5 @@
 import React from "react";
-import { IconCurrentLocation, IconMapSearch } from "@tabler/icons";
+import { IconCurrentLocation, IconMapSearch } from "@tabler/icons-react";
 
 export function SearchList(props) {
   return (

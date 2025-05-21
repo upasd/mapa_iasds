@@ -7,7 +7,7 @@ import {
   IconPhoto,
   IconMail,
   IconWorld
-} from "@tabler/icons";
+} from "@tabler/icons-react";
 import { Tooltip } from '@mantine/core';
 
 export function ChurchDetails(props) {
