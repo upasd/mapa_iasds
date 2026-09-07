@@ -107,7 +107,7 @@ function App() {
     } else {
       getChurchesList().then((items) => {
         if (mounted) {
-          items.sort((a, b) => (a.name > b.name ? 1 : -1));
+          items.sort((a, b) => a.name.localeCompare(b.name, "pt"));
           setMarkerList(items);
           setSearchList(items);
         }
